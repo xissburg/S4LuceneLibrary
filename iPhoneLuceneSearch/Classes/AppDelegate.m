@@ -1,5 +1,6 @@
 #import "AppDelegate.h"
 #import "S4FileUtilities.h"
+#import "S4CommonDefines.h"
 
 
 
@@ -15,7 +16,7 @@ static NSString *FIELD_PATH = @"P";
 
 
 
-- (void) fillDirectory:(LCFSDirectory *)rd
+- (void)fillDirectory: (LCFSDirectory *)rd
 {
     LCSimpleAnalyzer *analyzer = [[LCSimpleAnalyzer alloc] init];
     LCIndexWriter *writer = [[LCIndexWriter alloc] initWithDirectory: rd
@@ -26,7 +27,7 @@ static NSString *FIELD_PATH = @"P";
     char buffer[40000];
     NSString *filePath = [[NSBundle mainBundle] pathForResource: @"data" ofType: @"txt"]; 
     
-    NSLog(@"opening %@", filePath);
+    S4DebugLog(@"opening %@", filePath);
     
     FILE *fh = fopen([filePath cStringUsingEncoding:NSASCIIStringEncoding], "r");
     
@@ -35,11 +36,11 @@ static NSString *FIELD_PATH = @"P";
         
         if (fgets(buffer, 40000, fh) == NULL)
 		{
-            NSLog(@"no further line");
+            S4DebugLog(@"no further line");
             break;
         }
         
-        NSLog(@"* %d", i);
+        S4DebugLog(@"* %d", i);
         NSString *line = [[NSString alloc] initWithUTF8String: buffer];
 
         LCDocument *d = [[LCDocument alloc] init];
@@ -68,7 +69,7 @@ static NSString *FIELD_PATH = @"P";
 
     fclose(fh);
 
-    NSLog(@"closing writer");
+    S4DebugLog(@"closing writer");
 
     [writer close];    
     [writer release];
@@ -99,17 +100,17 @@ static NSString *FIELD_PATH = @"P";
     [window makeKeyAndVisible];
 
     LCFSDirectory *rd = [self createFileDirectory];
-    NSLog(@"opening searcher");
+    S4DebugLog(@"opening searcher");
 	searcher = [[LCIndexSearcher alloc] initWithDirectory: rd];
     [rd release];
-    NSLog(@"ready");
+    S4DebugLog(@"ready");
     [resultField setText: @""];
 }
 
 
-- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
+- (void)searchBar: (UISearchBar *)searchBar textDidChange: (NSString *)searchText
 {
-    NSLog(@"searching %@", searchText);
+    S4DebugLog(@"searching %@", searchText);
 
     LCTerm *t = [[LCTerm alloc] initWithField: FIELD_TEXT text: searchText];
 
@@ -119,23 +120,25 @@ static NSString *FIELD_PATH = @"P";
 
     LCHitIterator *iterator = [hits iterator];
     
-    while([iterator hasNext]) {
+    while ([iterator hasNext])
+	{
         LCHit *hit = [iterator next];
-        
-        NSString *path = [hit stringForField: FIELD_PATH];
-        NSLog(@"%@ -> %@", hit, path);
+        S4DebugLog(@"%@ -> %@", hit, [hit stringForField: FIELD_PATH]);
     }
 
     int results = [hits count];
 
-    [resultField setText:[NSString stringWithFormat:@"%d", results]];
+    [resultField setText: [NSString stringWithFormat: @"%d", results]];
 
 }
 
-- (void)dealloc {
-    [searcher release];
-    [window release];
-    [searchBar release];
+
+- (void)dealloc
+{
+    NS_SAFE_RELEASE(searcher);
+    NS_SAFE_RELEASE(window);
+    NS_SAFE_RELEASE(searchBar);
+
     [super dealloc];
 }
 

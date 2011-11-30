@@ -324,6 +324,25 @@
 		0AA59D7C1294AD4600C3ACDE /* S4UserDefaultsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA59D5F1294AD4600C3ACDE /* S4UserDefaultsManager.h */; };
 		0AA59D7D1294AD4600C3ACDE /* S4XMLToDictionaryParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA59D601294AD4600C3ACDE /* S4XMLToDictionaryParser.h */; };
 		0AA59D7E1294AD4600C3ACDE /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA59D611294AD4600C3ACDE /* sha1.h */; };
+		0AD111501485B6A60058EF06 /* S4CryptoUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD1113D1485B6A60058EF06 /* S4CryptoUtils.h */; };
+		0AD111511485B6A60058EF06 /* S4DownloadInvokeOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD1113E1485B6A60058EF06 /* S4DownloadInvokeOperation.h */; };
+		0AD111521485B6A60058EF06 /* S4FileDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD1113F1485B6A60058EF06 /* S4FileDownloader.h */; };
+		0AD111531485B6A60058EF06 /* S4FileProgressDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD111401485B6A60058EF06 /* S4FileProgressDownloader.h */; };
+		0AD111541485B6A60058EF06 /* S4FullScreenMoviePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD111411485B6A60058EF06 /* S4FullScreenMoviePlayer.h */; };
+		0AD111551485B6A60058EF06 /* S4ImageFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD111421485B6A60058EF06 /* S4ImageFetcher.h */; };
+		0AD111561485B6A60058EF06 /* S4JSONCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD111431485B6A60058EF06 /* S4JSONCommon.h */; };
+		0AD111571485B6A60058EF06 /* S4JSONFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD111441485B6A60058EF06 /* S4JSONFile.h */; };
+		0AD111581485B6A60058EF06 /* S4JSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD111451485B6A60058EF06 /* S4JSONParser.h */; };
+		0AD111591485B6A60058EF06 /* S4JSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD111461485B6A60058EF06 /* S4JSONSerializer.h */; };
+		0AD1115A1485B6A60058EF06 /* S4OperationsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD111471485B6A60058EF06 /* S4OperationsManager.h */; };
+		0AD1115B1485B6A60058EF06 /* S4OverlayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD111481485B6A60058EF06 /* S4OverlayViewController.h */; };
+		0AD1115C1485B6A60058EF06 /* S4ProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD111491485B6A60058EF06 /* S4ProgressHUD.h */; };
+		0AD1115D1485B6A60058EF06 /* S4RoundedRectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD1114A1485B6A60058EF06 /* S4RoundedRectView.h */; };
+		0AD1115E1485B6A60058EF06 /* S4SbJSONFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD1114B1485B6A60058EF06 /* S4SbJSONFile.h */; };
+		0AD1115F1485B6A60058EF06 /* S4TextUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD1114C1485B6A60058EF06 /* S4TextUtils.h */; };
+		0AD111601485B6A60058EF06 /* S4WebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD1114D1485B6A60058EF06 /* S4WebViewController.h */; };
+		0AD111611485B6A60058EF06 /* S4YajlJSONFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD1114E1485B6A60058EF06 /* S4YajlJSONFile.h */; };
+		0AD111621485B6A60058EF06 /* UIColor+S4Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD1114F1485B6A60058EF06 /* UIColor+S4Utilities.h */; };
 		AA747D9F0F9514B9006C5449 /* S4LuceneLib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* S4LuceneLib_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -647,6 +666,25 @@
 		0AA59D5F1294AD4600C3ACDE /* S4UserDefaultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4UserDefaultsManager.h; sourceTree = "<group>"; };
 		0AA59D601294AD4600C3ACDE /* S4XMLToDictionaryParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4XMLToDictionaryParser.h; sourceTree = "<group>"; };
 		0AA59D611294AD4600C3ACDE /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		0AD1113D1485B6A60058EF06 /* S4CryptoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4CryptoUtils.h; sourceTree = "<group>"; };
+		0AD1113E1485B6A60058EF06 /* S4DownloadInvokeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4DownloadInvokeOperation.h; sourceTree = "<group>"; };
+		0AD1113F1485B6A60058EF06 /* S4FileDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4FileDownloader.h; sourceTree = "<group>"; };
+		0AD111401485B6A60058EF06 /* S4FileProgressDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4FileProgressDownloader.h; sourceTree = "<group>"; };
+		0AD111411485B6A60058EF06 /* S4FullScreenMoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4FullScreenMoviePlayer.h; sourceTree = "<group>"; };
+		0AD111421485B6A60058EF06 /* S4ImageFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4ImageFetcher.h; sourceTree = "<group>"; };
+		0AD111431485B6A60058EF06 /* S4JSONCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4JSONCommon.h; sourceTree = "<group>"; };
+		0AD111441485B6A60058EF06 /* S4JSONFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4JSONFile.h; sourceTree = "<group>"; };
+		0AD111451485B6A60058EF06 /* S4JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4JSONParser.h; sourceTree = "<group>"; };
+		0AD111461485B6A60058EF06 /* S4JSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4JSONSerializer.h; sourceTree = "<group>"; };
+		0AD111471485B6A60058EF06 /* S4OperationsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4OperationsManager.h; sourceTree = "<group>"; };
+		0AD111481485B6A60058EF06 /* S4OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4OverlayViewController.h; sourceTree = "<group>"; };
+		0AD111491485B6A60058EF06 /* S4ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4ProgressHUD.h; sourceTree = "<group>"; };
+		0AD1114A1485B6A60058EF06 /* S4RoundedRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4RoundedRectView.h; sourceTree = "<group>"; };
+		0AD1114B1485B6A60058EF06 /* S4SbJSONFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4SbJSONFile.h; sourceTree = "<group>"; };
+		0AD1114C1485B6A60058EF06 /* S4TextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4TextUtils.h; sourceTree = "<group>"; };
+		0AD1114D1485B6A60058EF06 /* S4WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4WebViewController.h; sourceTree = "<group>"; };
+		0AD1114E1485B6A60058EF06 /* S4YajlJSONFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4YajlJSONFile.h; sourceTree = "<group>"; };
+		0AD1114F1485B6A60058EF06 /* UIColor+S4Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+S4Utilities.h"; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* S4LuceneLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S4LuceneLib_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libS4LuceneLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libS4LuceneLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1025,6 +1063,25 @@
 		0AA59D431294AD4600C3ACDE /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				0AD1113D1485B6A60058EF06 /* S4CryptoUtils.h */,
+				0AD1113E1485B6A60058EF06 /* S4DownloadInvokeOperation.h */,
+				0AD1113F1485B6A60058EF06 /* S4FileDownloader.h */,
+				0AD111401485B6A60058EF06 /* S4FileProgressDownloader.h */,
+				0AD111411485B6A60058EF06 /* S4FullScreenMoviePlayer.h */,
+				0AD111421485B6A60058EF06 /* S4ImageFetcher.h */,
+				0AD111431485B6A60058EF06 /* S4JSONCommon.h */,
+				0AD111441485B6A60058EF06 /* S4JSONFile.h */,
+				0AD111451485B6A60058EF06 /* S4JSONParser.h */,
+				0AD111461485B6A60058EF06 /* S4JSONSerializer.h */,
+				0AD111471485B6A60058EF06 /* S4OperationsManager.h */,
+				0AD111481485B6A60058EF06 /* S4OverlayViewController.h */,
+				0AD111491485B6A60058EF06 /* S4ProgressHUD.h */,
+				0AD1114A1485B6A60058EF06 /* S4RoundedRectView.h */,
+				0AD1114B1485B6A60058EF06 /* S4SbJSONFile.h */,
+				0AD1114C1485B6A60058EF06 /* S4TextUtils.h */,
+				0AD1114D1485B6A60058EF06 /* S4WebViewController.h */,
+				0AD1114E1485B6A60058EF06 /* S4YajlJSONFile.h */,
+				0AD1114F1485B6A60058EF06 /* UIColor+S4Utilities.h */,
 				0AA59D441294AD4600C3ACDE /* Base64Transcoder.h */,
 				0AA59D461294AD4600C3ACDE /* hmac.h */,
 				0AA59D471294AD4600C3ACDE /* NSCollections+S4Utilities.h */,
@@ -1265,6 +1322,25 @@
 				0AA59D7D1294AD4600C3ACDE /* S4XMLToDictionaryParser.h in Headers */,
 				0AA59D7E1294AD4600C3ACDE /* sha1.h in Headers */,
 				0A21371D13AD3E2E00E14101 /* SFHFKeychainUtils.h in Headers */,
+				0AD111501485B6A60058EF06 /* S4CryptoUtils.h in Headers */,
+				0AD111511485B6A60058EF06 /* S4DownloadInvokeOperation.h in Headers */,
+				0AD111521485B6A60058EF06 /* S4FileDownloader.h in Headers */,
+				0AD111531485B6A60058EF06 /* S4FileProgressDownloader.h in Headers */,
+				0AD111541485B6A60058EF06 /* S4FullScreenMoviePlayer.h in Headers */,
+				0AD111551485B6A60058EF06 /* S4ImageFetcher.h in Headers */,
+				0AD111561485B6A60058EF06 /* S4JSONCommon.h in Headers */,
+				0AD111571485B6A60058EF06 /* S4JSONFile.h in Headers */,
+				0AD111581485B6A60058EF06 /* S4JSONParser.h in Headers */,
+				0AD111591485B6A60058EF06 /* S4JSONSerializer.h in Headers */,
+				0AD1115A1485B6A60058EF06 /* S4OperationsManager.h in Headers */,
+				0AD1115B1485B6A60058EF06 /* S4OverlayViewController.h in Headers */,
+				0AD1115C1485B6A60058EF06 /* S4ProgressHUD.h in Headers */,
+				0AD1115D1485B6A60058EF06 /* S4RoundedRectView.h in Headers */,
+				0AD1115E1485B6A60058EF06 /* S4SbJSONFile.h in Headers */,
+				0AD1115F1485B6A60058EF06 /* S4TextUtils.h in Headers */,
+				0AD111601485B6A60058EF06 /* S4WebViewController.h in Headers */,
+				0AD111611485B6A60058EF06 /* S4YajlJSONFile.h in Headers */,
+				0AD111621485B6A60058EF06 /* UIColor+S4Utilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1331,7 +1407,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ -e \"${PROJECT_DIR}/dist/libS4LuceneLib.a\" ] ; then\n  rm ${PROJECT_DIR}/dist/libS4LuceneLib.a\nfi\n\nif [ -e \"${PROJECT_DIR}/dist/Headers/Analysis.h\" ] ; then\n  rm ${PROJECT_DIR}/dist/Headers/*.h\nfi\n\nif [ -e \"${PROJECT_DIR}/dist/Resources/Lucene.png\" ] ; then\n  rm ${PROJECT_DIR}/dist/Resources/*.png\nfi\n\nif [ -e \"${PROJECT_DIR}/dist/Resources/S4WebView.xib\" ] ; then\n  rm ${PROJECT_DIR}/dist/Resources/*.xib\nfi\n";
+			shellScript = "if [ -e dist/libS4LuceneLib.a ] ; then\n  rm dist/libS4LuceneLib.a\nfi\n\nif [ -e dist//Headers/Analysis.h ] ; then\n  rm dist/Headers/*.h\nfi\n\nif [ -e dist/Resources/Lucene.png\" ] ; then\n  rm dist/Resources/*.png\nfi\n\nif [ -e dist/Resources/S4WebView.xib\" ] ; then\n  rm dist/Resources/*.xib\nfi\n";
 		};
 		0A3BC68A11FC2BCE001D4BCA /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1344,7 +1420,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ -e \"${BUILT_PRODUCTS_DIR}/../Release-iphoneos/libS4LuceneLib.a\" ] ; then\n\tif [ -e \"${BUILT_PRODUCTS_DIR}/../Debug-iphonesimulator/libS4LuceneLib.a\" ] ; then\n\t\tlipo -create \"${BUILT_PRODUCTS_DIR}/../Release-iphoneos/libS4LuceneLib.a\" \"${BUILT_PRODUCTS_DIR}/../Debug-iphonesimulator/libS4LuceneLib.a\" -output \"${PROJECT_DIR}/dist/libS4LuceneLib.a\"\n\t\tcp ${PROJECT_DIR}/Classes/Lucene/*.h ${PROJECT_DIR}/dist/Headers/\n\t\tcp ${PROJECT_DIR}/Resources/* ${PROJECT_DIR}/dist/Resources\n\tfi\nfi\n";
+			shellScript = "if [ -e \"${BUILT_PRODUCTS_DIR}/../Release-iphoneos/libS4LuceneLib.a\" ] ; then\n\tif [ -e \"${BUILT_PRODUCTS_DIR}/../Debug-iphonesimulator/libS4LuceneLib.a\" ] ; then\n\t\tlipo -create \"${BUILT_PRODUCTS_DIR}/../Release-iphoneos/libS4LuceneLib.a\" \"${BUILT_PRODUCTS_DIR}/../Debug-iphonesimulator/libS4LuceneLib.a\" -output \"${PROJECT_DIR}/dist/libS4LuceneLib.a\"\n\t\tcp Classes/Lucene/*.h dist/Headers/\n\t\tcp Resources/* dist/Resources/\n\tfi\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1532,7 +1608,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -1550,7 +1626,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",

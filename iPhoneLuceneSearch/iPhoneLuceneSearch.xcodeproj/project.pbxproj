@@ -21,6 +21,10 @@
 		0A10ECCC11FC394B00F094F9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A10ECCB11FC394B00F094F9 /* libz.dylib */; };
 		0A2137AD13AD4C7F00E14101 /* libS4iOSLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2137AC13AD4C7F00E14101 /* libS4iOSLib.a */; };
 		0A2137E513AD4D4400E14101 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2137E413AD4D4400E14101 /* CFNetwork.framework */; };
+		0AD111361485B53F0058EF06 /* ico_arrowleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD111321485B53F0058EF06 /* ico_arrowleft.png */; };
+		0AD111371485B53F0058EF06 /* ico_arrowright.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD111331485B53F0058EF06 /* ico_arrowright.png */; };
+		0AD111381485B53F0058EF06 /* ico_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD111341485B53F0058EF06 /* ico_refresh.png */; };
+		0AD111391485B53F0058EF06 /* S4WebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AD111351485B53F0058EF06 /* S4WebView.xib */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -234,6 +238,28 @@
 		0A2137CC13AD4CA800E14101 /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/sha1.h; sourceTree = SOURCE_ROOT; };
 		0A2137CD13AD4CA800E14101 /* THBonjour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THBonjour.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/THBonjour.h; sourceTree = SOURCE_ROOT; };
 		0A2137E413AD4D4400E14101 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0AD111201485B51A0058EF06 /* S4CryptoUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4CryptoUtils.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4CryptoUtils.h; sourceTree = "<group>"; };
+		0AD111211485B51A0058EF06 /* S4DownloadInvokeOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4DownloadInvokeOperation.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4DownloadInvokeOperation.h; sourceTree = "<group>"; };
+		0AD111221485B51A0058EF06 /* S4FileDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4FileDownloader.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4FileDownloader.h; sourceTree = "<group>"; };
+		0AD111231485B51A0058EF06 /* S4FileProgressDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4FileProgressDownloader.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4FileProgressDownloader.h; sourceTree = "<group>"; };
+		0AD111241485B51A0058EF06 /* S4FullScreenMoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4FullScreenMoviePlayer.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4FullScreenMoviePlayer.h; sourceTree = "<group>"; };
+		0AD111251485B51A0058EF06 /* S4ImageFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4ImageFetcher.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4ImageFetcher.h; sourceTree = "<group>"; };
+		0AD111261485B51A0058EF06 /* S4JSONCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4JSONCommon.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4JSONCommon.h; sourceTree = "<group>"; };
+		0AD111271485B51A0058EF06 /* S4JSONFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4JSONFile.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4JSONFile.h; sourceTree = "<group>"; };
+		0AD111281485B51A0058EF06 /* S4JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4JSONParser.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4JSONParser.h; sourceTree = "<group>"; };
+		0AD111291485B51A0058EF06 /* S4JSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4JSONSerializer.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4JSONSerializer.h; sourceTree = "<group>"; };
+		0AD1112A1485B51A0058EF06 /* S4OperationsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4OperationsManager.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4OperationsManager.h; sourceTree = "<group>"; };
+		0AD1112B1485B51A0058EF06 /* S4OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4OverlayViewController.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4OverlayViewController.h; sourceTree = "<group>"; };
+		0AD1112C1485B51A0058EF06 /* S4ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4ProgressHUD.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4ProgressHUD.h; sourceTree = "<group>"; };
+		0AD1112D1485B51A0058EF06 /* S4RoundedRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4RoundedRectView.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4RoundedRectView.h; sourceTree = "<group>"; };
+		0AD1112E1485B51A0058EF06 /* S4TextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4TextUtils.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4TextUtils.h; sourceTree = "<group>"; };
+		0AD1112F1485B51A0058EF06 /* S4WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4WebViewController.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4WebViewController.h; sourceTree = "<group>"; };
+		0AD111301485B51A0058EF06 /* S4YajlJSONFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = S4YajlJSONFile.h; path = ../../S4iOSLibraries/S4iOSLib/dist/Headers/S4YajlJSONFile.h; sourceTree = "<group>"; };
+		0AD111311485B51A0058EF06 /* UIColor+S4Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+S4Utilities.h"; path = "../../S4iOSLibraries/S4iOSLib/dist/Headers/UIColor+S4Utilities.h"; sourceTree = "<group>"; };
+		0AD111321485B53F0058EF06 /* ico_arrowleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_arrowleft.png; path = ../../S4iOSLibraries/S4iOSLib/dist/Resources/ico_arrowleft.png; sourceTree = "<group>"; };
+		0AD111331485B53F0058EF06 /* ico_arrowright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_arrowright.png; path = ../../S4iOSLibraries/S4iOSLib/dist/Resources/ico_arrowright.png; sourceTree = "<group>"; };
+		0AD111341485B53F0058EF06 /* ico_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ico_refresh.png; path = ../../S4iOSLibraries/S4iOSLib/dist/Resources/ico_refresh.png; sourceTree = "<group>"; };
+		0AD111351485B53F0058EF06 /* S4WebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = S4WebView.xib; path = ../../S4iOSLibraries/S4iOSLib/dist/Resources/S4WebView.xib; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* iPhoneLuceneSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneLuceneSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -458,6 +484,10 @@
 		0A2137AB13AD4C6100E14101 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0AD111321485B53F0058EF06 /* ico_arrowleft.png */,
+				0AD111331485B53F0058EF06 /* ico_arrowright.png */,
+				0AD111341485B53F0058EF06 /* ico_refresh.png */,
+				0AD111351485B53F0058EF06 /* S4WebView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -465,6 +495,24 @@
 		0A2137AE13AD4C8600E14101 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				0AD111201485B51A0058EF06 /* S4CryptoUtils.h */,
+				0AD111211485B51A0058EF06 /* S4DownloadInvokeOperation.h */,
+				0AD111221485B51A0058EF06 /* S4FileDownloader.h */,
+				0AD111231485B51A0058EF06 /* S4FileProgressDownloader.h */,
+				0AD111241485B51A0058EF06 /* S4FullScreenMoviePlayer.h */,
+				0AD111251485B51A0058EF06 /* S4ImageFetcher.h */,
+				0AD111261485B51A0058EF06 /* S4JSONCommon.h */,
+				0AD111271485B51A0058EF06 /* S4JSONFile.h */,
+				0AD111281485B51A0058EF06 /* S4JSONParser.h */,
+				0AD111291485B51A0058EF06 /* S4JSONSerializer.h */,
+				0AD1112A1485B51A0058EF06 /* S4OperationsManager.h */,
+				0AD1112B1485B51A0058EF06 /* S4OverlayViewController.h */,
+				0AD1112C1485B51A0058EF06 /* S4ProgressHUD.h */,
+				0AD1112D1485B51A0058EF06 /* S4RoundedRectView.h */,
+				0AD1112E1485B51A0058EF06 /* S4TextUtils.h */,
+				0AD1112F1485B51A0058EF06 /* S4WebViewController.h */,
+				0AD111301485B51A0058EF06 /* S4YajlJSONFile.h */,
+				0AD111311485B51A0058EF06 /* UIColor+S4Utilities.h */,
 				0A2137AF13AD4CA800E14101 /* Base64Transcoder.h */,
 				0A2137B013AD4CA800E14101 /* hmac.h */,
 				0A2137B113AD4CA800E14101 /* NSCollections+S4Utilities.h */,
@@ -645,6 +693,10 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				0A10EBF411FC375E00F094F9 /* Lucene.png in Resources */,
 				0A10ECAF11FC389E00F094F9 /* data.txt in Resources */,
+				0AD111361485B53F0058EF06 /* ico_arrowleft.png in Resources */,
+				0AD111371485B53F0058EF06 /* ico_arrowright.png in Resources */,
+				0AD111381485B53F0058EF06 /* ico_refresh.png in Resources */,
+				0AD111391485B53F0058EF06 /* S4WebView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,7 +760,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -729,7 +781,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
