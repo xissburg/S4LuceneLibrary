@@ -9,7 +9,7 @@
 	int position;
 	int count;
 	int offset;
-	id <LCTermPositions> *tp;
+	id <LCTermPositions> tp;
 	LCPhrasePositions *next;
 }
 
